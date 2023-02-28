@@ -1,6 +1,6 @@
-if SHIELD_1K
+if SHIELD_ONK
 
 config ZMK_KEYBOARD_NAME
-    default "1k"
+    default "onk"
 
 endif
