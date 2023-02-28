@@ -1,2 +1,2 @@
 config SHIELD_1K
-    def_bool $(shield_list_contains, 1ks)
+    def_bool $(shield_list_contains, 1k)
