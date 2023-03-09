@@ -10,8 +10,8 @@
 
             bindings = <
                 &kp E 
-                &bt E
-                &bt E
+                &kp E
+                &kp E
 
                >;
         
