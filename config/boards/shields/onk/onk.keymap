@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 
 / {
@@ -7,17 +8,13 @@
         compatible = "zmk,keymap";
 
         default_layer {
-
-            bindings = <
+           bindings = <
                 &kp E 
-                &kp E
-                &kp E
+                &kp X
+                &kp Z
 
                >;
         
-            };
-
-       
-
+        };
     };
 };
