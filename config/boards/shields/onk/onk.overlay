@@ -14,8 +14,8 @@
 
 		label = "KSCAN";
 
-    input-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   
-    input-gpios = <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  
-    input-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   
+      input-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   
+    , input-gpios = <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>  
+    , input-gpios = <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   
     };
 };
