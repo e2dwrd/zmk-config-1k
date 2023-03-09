@@ -1,2 +1,2 @@
 config SHIELD_ONK
-    def_bool $(shield_list_contains,onk)
+    def_bool $(shields_list_contains,onk)
